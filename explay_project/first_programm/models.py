@@ -4,7 +4,7 @@ from django.db import models
 
 
 class Name(models.Model):
-    name = models.CharField(verbose_name='Название', max_length=30)
+    name = models.CharField(verbose_name='Проверка гит хаба', max_length=30)
 
     class Meta:
         verbose_name = 'Пиццу'
