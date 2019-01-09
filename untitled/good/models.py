@@ -12,7 +12,7 @@ class NameModel(models.Model):
 
 
 class Store(NameModel):
-    pass
+    description = models.TextField(verbose_name='Описание', default='')
 
     class Meta:
         verbose_name = 'Торговая точка'
@@ -20,7 +20,7 @@ class Store(NameModel):
 
 
 class Client(NameModel):
-    description = models.TextField(verbose_name='Описание')
+    description = models.TextField(verbose_name='Описание', default='')
 
     class Meta:
         verbose_name = 'Клиент'

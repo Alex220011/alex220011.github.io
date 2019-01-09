@@ -19,5 +19,5 @@ from good import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    re_path('^sasha/$', include('good.urls')),
+    re_path('sasha/', include('good.urls')),
 ]
