@@ -2,6 +2,8 @@ from django.shortcuts import render, get_object_or_404
 
 from good.models import Store
 
+def home_page(request):
+    return render(request, 'good/home-page.html')
 
 def home(request):
     store_list = Store.objects.all()
