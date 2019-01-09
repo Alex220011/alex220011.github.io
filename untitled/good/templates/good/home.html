@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Торговые точки</title>
+</head>
+<body>
+ <h1>Список точек</h1>
+{% for store in objects %}
+    <p>
+        <a href="{% url 'start_visit' store.pk %}">{{ store }}</a>
+    </p>
+{% endfor %}
+</body>
+</html>
