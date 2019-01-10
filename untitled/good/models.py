@@ -19,19 +19,9 @@ class Store(NameModel):
         verbose_name_plural = 'Торговые точки'
 
 
-class Client(NameModel):
-    description = models.TextField(verbose_name='Описание', default='')
+class products(NameModel):
+    description = models.TextField(verbose_name='Описание продукта', default='')
 
     class Meta:
-        verbose_name = 'Клиент'
-        verbose_name_plural = 'Клиенты'
-
-
-class Visit(NameModel):
-    arrived = models.DateTimeField(verbose_name='Прибыл', null=True, auto_now_add=True)
-    client = models.ForeignKey(verbose_name='Клиент', to=Client, on_delete=models.CASCADE)
-    store = models.ForeignKey(verbose_name='Торговая точка', to=Store, on_delete=models.CASCADE)
-
-    class Meta:
-        verbose_name = 'Посещение'
-        verbose_name_plural = 'Посещения'
+        verbose_name = 'Продукт'
+        verbose_name_plural = 'Продукты'
