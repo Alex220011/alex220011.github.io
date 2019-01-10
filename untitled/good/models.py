@@ -21,6 +21,8 @@ class Store(NameModel):
 
 class products(NameModel):
     description = models.TextField(verbose_name='Описание продукта', default='')
+    store = models.ForeignKey(verbose_name='Магазин', to=Store,null=True, on_delete=models.CASCADE)
+    price = models.IntegerField(verbose_name='Цена', default=0)
 
     class Meta:
         verbose_name = 'Продукт'

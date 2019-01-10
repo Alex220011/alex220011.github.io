@@ -9,6 +9,9 @@ def home(request):
     store_list = Store.objects.all()
     return render(request, 'good/home.html', dict(objects=store_list))
 
+#def product(request, id):
+#    products_list = get_object_or_404(product, id=id)
+#    return render(request, 'good/visit.html', dict(object=products_list))
 
 def start_visit(request, id):
     store = get_object_or_404(Store, id=id)
