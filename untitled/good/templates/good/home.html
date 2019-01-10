@@ -3,14 +3,27 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Торговые точки</title>
+    <title>{% block title %} Торговые точки {% endblock %}</title>
 </head>
 <body>
  <h1>Список точек</h1>
 {% for store in objects %}
+    <style>
+        a {
+         color: black;
+         text-decoration: none;
+
+        }
+    
+        </style>
     <p>
-        <a href="{% url 'start_visit' store.pk %}">{{ store }}</a>
+    <ul>
+        <li><a href="{% url 'start_visit' store.id %}">{{ store }}</a></li>
+
+    </ul>
+
     </p>
 {% endfor %}
+  <h4><a href="{% url 'home_page' %}">На начальную страницу</a></h4>
 </body>
 </html>
