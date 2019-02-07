@@ -13,6 +13,11 @@
 
     <h3> {{ object.description }}</h3>
 
-    <h4> {{ object.por}}</h4>
+{% for product in object.por.all %}
+    <ul>
+    {{ product }}
+    </ul>
+{% endfor %}
+
 </body>
 </html>

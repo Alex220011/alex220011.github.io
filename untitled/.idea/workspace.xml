@@ -4,9 +4,8 @@
     <list default="true" id="745f56b6-5ce6-4384-8365-196542ad6d0e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/good/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/good/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/good/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/good/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/good/templates/good/visit.html" beforeDir="false" afterPath="$PROJECT_DIR$/good/templates/good/visit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/good/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/good/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/untitled$runserver.coverage" NAME="runserver Coverage Results" MODIFIED="1549490013484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled$runserver.coverage" NAME="runserver Coverage Results" MODIFIED="1549534885137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -142,14 +141,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="409" />
-          <entry key="py" value="1106" />
+          <entry key="html" value="600" />
+          <entry key="py" value="1199" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="409" />
-          <entry key="Python" value="1106" />
+          <entry key="HTML" value="600" />
+          <entry key="Python" value="1199" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -223,8 +222,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/good/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="273">
-                  <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+                <state relative-caret-position="252">
+                  <caret line="12" selection-start-line="12" selection-end-line="14" selection-end-column="74" />
                   <folding>
                     <element signature="e#0#54#0" expanded="true" />
                   </folding>
@@ -244,8 +243,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/good/templates/good/home.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="256">
-                  <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+                <state relative-caret-position="88">
+                  <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
                 </state>
               </provider>
             </entry>
@@ -258,8 +257,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/good/templates/good/visit.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="336">
-                  <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+                <state relative-caret-position="315">
+                  <caret line="15" selection-start-line="15" selection-end-line="19" selection-end-column="12" />
                 </state>
               </provider>
             </entry>
@@ -271,8 +270,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/good/models.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="504">
-                  <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+                <state relative-caret-position="336">
+                  <caret line="25" selection-start-line="25" selection-end-line="26" />
                 </state>
               </provider>
             </entry>
@@ -315,11 +314,11 @@
         <option value="$PROJECT_DIR$/good/templates/good/home-page.html" />
         <option value="$PROJECT_DIR$/good/templates/good/statics/style.css" />
         <option value="$PROJECT_DIR$/good/apps.py" />
-        <option value="$PROJECT_DIR$/good/views.py" />
         <option value="$PROJECT_DIR$/good/urls.py" />
         <option value="$PROJECT_DIR$/good/templates/good/statics/0123.html" />
         <option value="$PROJECT_DIR$/good/templates/good/home.html" />
         <option value="$PROJECT_DIR$/good/admin.py" />
+        <option value="$PROJECT_DIR$/good/views.py" />
         <option value="$PROJECT_DIR$/good/models.py" />
         <option value="$PROJECT_DIR$/good/templates/good/visit.html" />
       </list>
@@ -331,7 +330,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-73" />
     <option name="y" value="50" />
     <option name="width" value="1255" />
@@ -622,9 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/good/templates/good/statics/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/good/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -639,6 +635,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <folding>
+            <element signature="e#632#664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/good/templates/good/statics/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/good/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -649,22 +658,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/good/views.py">
+    <entry file="file://$PROJECT_DIR$/good/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="336">
+          <caret line="25" selection-start-line="25" selection-end-line="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/untitled/urls.py">
+    <entry file="file://$PROJECT_DIR$/good/templates/good/home-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        <state relative-caret-position="294">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/good/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" selection-start-line="12" selection-end-line="14" selection-end-column="74" />
           <folding>
-            <element signature="e#632#664#0" expanded="true" />
+            <element signature="e#0#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -679,31 +692,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/good/templates/good/home-page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/good/templates/good/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/good/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="88">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/good/templates/good/visit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        <state relative-caret-position="315">
+          <caret line="15" selection-start-line="15" selection-end-line="19" selection-end-column="12" />
         </state>
       </provider>
     </entry>
