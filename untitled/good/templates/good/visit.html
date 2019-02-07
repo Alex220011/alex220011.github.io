@@ -6,10 +6,14 @@
 </head>
 <body>
     <h1><a href="{% url 'home' %}" >Назад </a></h1>
- <h2>{{ object.name }}</h2>
- <style>
+   <style>
+     h2
+     {
+      display: block;
+     }
+    </style>
 
-</style>
+ <h2>{{ object.name }}</h2>
 
     <h3> {{ object.description }}</h3>
 
